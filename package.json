@@ -1,0 +1,21 @@
+{
+  "name": "clickup.com",
+  "version": "1.0.0",
+  "description": "Demo automation framework using cypress and cucumber js",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --browser firefox",
+    "runOnChrome": "cypress run --browser chrome"
+  },
+  "devDependencies": {
+    "cypress": "^9.5.2",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "@shelex/cypress-allure-plugin": "latest"
+  }
+}

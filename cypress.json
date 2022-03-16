@@ -1,0 +1,13 @@
+{
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "screenshotOnRunFailure": true,
+  "baseUrl": "https://clickup.com",
+  "testFiles": "**/*.{feature,features}",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results/specs",
+    "html": false,
+    "json": true
+  }
+}
