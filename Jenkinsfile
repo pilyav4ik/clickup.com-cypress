@@ -3,7 +3,7 @@ pipeline{
     agent any
     parameters{
         string(name: 'SPEC', defaultValue: "cypress/integration/*.feature", description: "DESC")
-        choise(name: 'BROWSER', choises: ['chrome'], description: "DESC")
+        choice(name: 'BROWSER', choices: ['chrome'], description: "DESC")
     }
 
     options{
