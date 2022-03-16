@@ -12,7 +12,7 @@ pipeline{
             steps{
                 bat "npm i"
                 bat "npm install cypress --save-dev"
-                bat "npm run cy:open --browser ${BROWSER}"
+                bat "cypress run --browser firefox"
             }
         }
     }
