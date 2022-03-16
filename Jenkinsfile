@@ -6,8 +6,6 @@ pipeline{
         choice(name: 'BROWSER', choices: ['chrome'], description: "DESC")
     }
 
-    options{
-    }
 
     stages{
         stage('Testing'){
